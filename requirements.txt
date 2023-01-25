@@ -1,5 +1,5 @@
 numpy
+cmake
 dlib
 scikit-image>=0.19.1
 opencv-python>=4.6.0
-cmake
