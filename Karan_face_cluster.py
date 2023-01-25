@@ -46,7 +46,6 @@ def run(
         non_arr=[]
         for j in di.items():
                 checking=[vars[k[1]][0] for k in j[1]]
-                #print(checking)
                 gg=[1 for i in distance_based_compare(checking,i[0],face_distance_tolerance) if i==True]
                 non_arr.append(sum(gg)/len(checking))
         highest_match=max(non_arr)
