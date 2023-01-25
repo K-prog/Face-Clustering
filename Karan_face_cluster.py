@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 import os
 from skimage.io import imread_collection
+import argparse
 
 pose_predictor = dlib.shape_predictor('shape_predictor_5_face_landmarks.dat')       # importing dlib models
 face_encoder = dlib.face_recognition_model_v1('dlib_face_recognition_resnet_model_v1.dat')
