@@ -2,3 +2,4 @@ numpy>=1.18.5
 dlib
 scikit-image>=0.19.1
 opencv-python>=4.6.0
+cmake
