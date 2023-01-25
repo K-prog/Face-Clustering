@@ -22,7 +22,7 @@ To run the inference use the Karan_face_cluster.py file with changable parameter
 
 **Note: This algorithm works only on datasets comparing already cropped faces, not full images**
 ```bash
-  python Karan_face_cluster.py --faces_dir 'test' --min_faces_cluster 20
+  python Karan_face_cluster.py --faces_dir 'test_250' --min_faces_cluster 20
 ```
 ## Authors
 
