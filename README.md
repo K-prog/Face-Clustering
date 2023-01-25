@@ -10,6 +10,7 @@ face embeddings and then perform clustering on it efficiently and accurately wit
 To successfully run the code first install the required libraries using 
 
 ```bash
+  pip install cmake
   pip install -r requirements.txt
 ```
 
