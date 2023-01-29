@@ -22,8 +22,10 @@ To run the inference use the Karan_face_cluster.py file with changable parameter
 - percentage_for_non_identified (default 0.35)  *Percentage value for comparing non identified faces to already made clusters*
 
 **Note: This algorithm works only on datasets comparing already cropped faces, not full images**
+
+## For running tensorflow inference
 ```bash
-  python Karan_face_cluster.py --faces_dir 'test_250' --min_faces_cluster 20
+  python Karan_face_cluster_tf.py --faces_dir 'faces' 
 ```
 ## Authors
 
